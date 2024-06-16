@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+/* color: rgb(103, 116, 131);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+blue 
+4783c7
+*/
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    
+}
+
+h1 {
+    color: rgb(103, 116, 131);
+    text-align: center;
+    font-size: 48px;
+}
+h1::first-letter {
+    color:#4783c7 ;
+    font-size: 58px;
+}
+.generate-feild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0px;
+    position: relative;
+}
+input {
+    line-height: 22px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    width: 450px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+}
+input::placeholder {
+    opacity: .4;
+}
+input:focus{
+    outline: 2px solid #4783c7;
+}
+button+ion-icon {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    font-size: 25px;
+    opacity: .4;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+
+}
